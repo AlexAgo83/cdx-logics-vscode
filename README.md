@@ -1,5 +1,10 @@
 # cdx-logics-vscode
 
+> [!WARNING]
+> This repository is obsolete and deprecated.
+> Please migrate to Logics 2.0 on `https://github.com/AlexAgo83/logics-manager`.
+> New setup, maintenance, releases, and active development now happen in `logics-manager`.
+
 [![CI](https://github.com/AlexAgo83/cdx-logics-vscode/actions/workflows/ci.yml/badge.svg)](https://github.com/AlexAgo83/cdx-logics-vscode/actions/workflows/ci.yml)
 [![License](https://img.shields.io/github/license/AlexAgo83/cdx-logics-vscode)](LICENSE)
 ![Version](https://img.shields.io/badge/version-v1.28.0-4C8BF5)
@@ -9,14 +14,30 @@
 
 Turn your `logics/*` Markdown corpus into a real delivery cockpit inside VS Code.
 
+For all new installs and migrations, use `logics-manager` 2.0 instead:
+
+- New canonical repository: `https://github.com/AlexAgo83/logics-manager`
+- Migration target: `logics-manager` 2.0
+- This repository is kept only for older setups that have not migrated yet
+
 `cdx-logics-vscode` gives you a visual orchestration layer for the Logics workflow
 (`requests -> backlog -> tasks -> specs`) without moving the source of truth out of the repository.
 
 This is more than a workflow panel. It turns project context into a durable, inspectable memory that AI assistants can reuse across sessions, so teams spend less time re-explaining history, waste fewer tokens, and keep delivery conversations grounded in the same artifacts.
 
-## Logics Kit Repository
+## Migration Notice
 
-This extension is designed to work with the Logics kit repository:
+`cdx-logics-vscode` is no longer the recommended repository.
+
+If you are adopting Logics today, or upgrading an older installation, move to:
+
+- `https://github.com/AlexAgo83/logics-manager`
+
+The 2.0 line consolidates the extension, runtime, CLI, packaging, and maintained documentation in one place.
+
+## Legacy Logics Kit Repository
+
+This legacy extension was designed to work with the legacy Logics kit repository:
 
 - Kit repo: `https://github.com/AlexAgo83/cdx-logics-kit`
 - Kit releases: `https://github.com/AlexAgo83/cdx-logics-kit/releases`
