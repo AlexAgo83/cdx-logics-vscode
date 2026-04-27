@@ -138,8 +138,14 @@
     "jsdom": "^25.0.1",
     "mermaid": "^11.14.0",
     "typescript": "^5.3.3",
-    "vitest": "^4.1.2",
+    "vitest": "^4.1.5",
     "yaml": "^2.8.3",
     "yauzl": "^3.2.0"
+  },
+  "overrides": {
+    "mermaid": {
+      "dompurify": "3.4.1",
+      "uuid": "14.0.0"
+    }
   }
 }
